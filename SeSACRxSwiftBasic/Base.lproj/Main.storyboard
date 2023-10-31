@@ -164,6 +164,15 @@
                                     <segue destination="Fwg-dp-mHe" kind="show" id="Aag-Vj-ukI"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZHx-82-c7J">
+                                <rect key="frame" x="94" y="462" width="205" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="NumbersViewController"/>
+                                <connections>
+                                    <segue destination="TCu-7S-UpJ" kind="show" id="ffS-Da-kk3"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="fli-8D-FTZ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -236,13 +245,13 @@
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                                 <subviews>
                                     <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ug1-U3-OFr">
-                                        <rect key="frame" x="0.0" y="0.0" width="393" height="280.66666666666669"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="281"/>
                                     </pickerView>
                                     <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1hq-4u-aPn">
-                                        <rect key="frame" x="0.0" y="280.66666666666663" width="393" height="280.66666666666663"/>
+                                        <rect key="frame" x="0.0" y="281" width="393" height="280"/>
                                     </pickerView>
                                     <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EKA-Vj-4tk">
-                                        <rect key="frame" x="0.0" y="561.33333333333337" width="393" height="280.66666666666663"/>
+                                        <rect key="frame" x="0.0" y="561" width="393" height="281"/>
                                     </pickerView>
                                 </subviews>
                             </stackView>
@@ -266,6 +275,55 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UJM-s1-tYE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2103" y="1559"/>
+        </scene>
+        <!--Assignment Numbers View Controller-->
+        <scene sceneID="Qga-UN-HYh">
+            <objects>
+                <viewController id="TCu-7S-UpJ" customClass="AssignmentNumbersViewController" customModule="SeSACRxSwiftBasic" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ksS-nj-oEY">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EJm-XJ-wy0">
+                                <rect key="frame" x="148" y="184" width="97" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tYg-ab-u3f">
+                                <rect key="frame" x="148" y="246" width="97" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="C9y-tG-nsf">
+                                <rect key="frame" x="148" y="318" width="97" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jlp-dx-aeL">
+                                <rect key="frame" x="175" y="433" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="XK0-k1-kXL"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="QcH-8N-Ci6"/>
+                    <connections>
+                        <outlet property="numberTextField1" destination="EJm-XJ-wy0" id="iPu-1L-yyR"/>
+                        <outlet property="numberTextField2" destination="tYg-ab-u3f" id="aHj-ZG-vMT"/>
+                        <outlet property="numberTextField3" destination="C9y-tG-nsf" id="FTB-8B-EN8"/>
+                        <outlet property="resultLabel" destination="Jlp-dx-aeL" id="2vM-RQ-eZK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tak-50-sXi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2103" y="2245"/>
         </scene>
     </scenes>
     <resources>
