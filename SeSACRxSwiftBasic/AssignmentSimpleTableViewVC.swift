@@ -9,7 +9,7 @@ import UIKit
 import RxSwift
 import RxCocoa
 
-final class AssignmentViewController: UIViewController {
+final class AssignmentSimpleTableViewVC: UIViewController {
 
     @IBOutlet var tableView: UITableView!
 

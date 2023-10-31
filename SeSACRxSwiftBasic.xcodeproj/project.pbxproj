@@ -20,7 +20,8 @@
 		89E4FE5D2AE60CA100F66B9A /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 89E4FE5C2AE60CA100F66B9A /* RxCocoa */; };
 		89E4FE5F2AE60CA100F66B9A /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 89E4FE5E2AE60CA100F66B9A /* RxRelay */; };
 		89E4FE612AE60CA100F66B9A /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 89E4FE602AE60CA100F66B9A /* RxSwift */; };
-		89EC3DEC2AF0E3EA005A75A1 /* AssignmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EC3DEB2AF0E3EA005A75A1 /* AssignmentViewController.swift */; };
+		89EC3DEC2AF0E3EA005A75A1 /* AssignmentSimpleTableViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EC3DEB2AF0E3EA005A75A1 /* AssignmentSimpleTableViewVC.swift */; };
+		89EC3DEE2AF0E9AA005A75A1 /* AssignmentSimplePickerViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EC3DED2AF0E9AA005A75A1 /* AssignmentSimplePickerViewVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,7 +56,8 @@
 		04BA14A12AE5ED6900138FB9 /* SeSACRxSwiftBasicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeSACRxSwiftBasicUITests.swift; sourceTree = "<group>"; };
 		04BA14A32AE5ED6900138FB9 /* SeSACRxSwiftBasicUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeSACRxSwiftBasicUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		04BA14B52AE5F3B000138FB9 /* RxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxViewController.swift; sourceTree = "<group>"; };
-		89EC3DEB2AF0E3EA005A75A1 /* AssignmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentViewController.swift; sourceTree = "<group>"; };
+		89EC3DEB2AF0E3EA005A75A1 /* AssignmentSimpleTableViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentSimpleTableViewVC.swift; sourceTree = "<group>"; };
+		89EC3DED2AF0E9AA005A75A1 /* AssignmentSimplePickerViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentSimplePickerViewVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,7 +114,8 @@
 				04BA14802AE5ED6800138FB9 /* AppDelegate.swift */,
 				04BA14822AE5ED6800138FB9 /* SceneDelegate.swift */,
 				04BA14842AE5ED6800138FB9 /* ViewController.swift */,
-				89EC3DEB2AF0E3EA005A75A1 /* AssignmentViewController.swift */,
+				89EC3DEB2AF0E3EA005A75A1 /* AssignmentSimpleTableViewVC.swift */,
+				89EC3DED2AF0E9AA005A75A1 /* AssignmentSimplePickerViewVC.swift */,
 				04BA14862AE5ED6800138FB9 /* Main.storyboard */,
 				04BA14892AE5ED6900138FB9 /* Assets.xcassets */,
 				04BA148B2AE5ED6900138FB9 /* LaunchScreen.storyboard */,
@@ -278,7 +281,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89EC3DEC2AF0E3EA005A75A1 /* AssignmentViewController.swift in Sources */,
+				89EC3DEE2AF0E9AA005A75A1 /* AssignmentSimplePickerViewVC.swift in Sources */,
+				89EC3DEC2AF0E3EA005A75A1 /* AssignmentSimpleTableViewVC.swift in Sources */,
 				04BA14852AE5ED6800138FB9 /* ViewController.swift in Sources */,
 				04BA14812AE5ED6800138FB9 /* AppDelegate.swift in Sources */,
 				04BA14B62AE5F3B000138FB9 /* RxViewController.swift in Sources */,

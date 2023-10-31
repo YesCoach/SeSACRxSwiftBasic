@@ -155,6 +155,15 @@
                                     <segue destination="VZu-Al-xfX" kind="show" id="fb1-Bn-bch"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mEC-Qe-g25">
+                                <rect key="frame" x="29" y="324" width="335" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="SimplePickerViewExampleViewController"/>
+                                <connections>
+                                    <segue destination="Fwg-dp-mHe" kind="show" id="Aag-Vj-ukI"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="fli-8D-FTZ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -165,10 +174,10 @@
             </objects>
             <point key="canvasLocation" x="992" y="870"/>
         </scene>
-        <!--Assignment View Controller-->
+        <!--Assignment Simple Table ViewVC-->
         <scene sceneID="fXl-vA-JrS">
             <objects>
-                <viewController id="VZu-Al-xfX" customClass="AssignmentViewController" customModule="SeSACRxSwiftBasic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="VZu-Al-xfX" customClass="AssignmentSimpleTableViewVC" customModule="SeSACRxSwiftBasic" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1a9-d9-usf">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -214,6 +223,49 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vZv-yF-bvC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2112" y="870"/>
+        </scene>
+        <!--Assignment Simple Picker ViewVC-->
+        <scene sceneID="oae-dr-46W">
+            <objects>
+                <viewController id="Fwg-dp-mHe" customClass="AssignmentSimplePickerViewVC" customModule="SeSACRxSwiftBasic" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="P5U-oo-jGw">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="a0H-iT-Gsa">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                                <subviews>
+                                    <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ug1-U3-OFr">
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="280.66666666666669"/>
+                                    </pickerView>
+                                    <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1hq-4u-aPn">
+                                        <rect key="frame" x="0.0" y="280.66666666666663" width="393" height="280.66666666666663"/>
+                                    </pickerView>
+                                    <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EKA-Vj-4tk">
+                                        <rect key="frame" x="0.0" y="561.33333333333337" width="393" height="280.66666666666663"/>
+                                    </pickerView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="fLI-w8-nFk"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="a0H-iT-Gsa" firstAttribute="leading" secondItem="fLI-w8-nFk" secondAttribute="leading" id="OHI-w9-S0Y"/>
+                            <constraint firstItem="a0H-iT-Gsa" firstAttribute="top" secondItem="fLI-w8-nFk" secondAttribute="top" id="Rya-fT-9bf"/>
+                            <constraint firstItem="fLI-w8-nFk" firstAttribute="trailing" secondItem="a0H-iT-Gsa" secondAttribute="trailing" id="VNd-BD-tIc"/>
+                            <constraint firstItem="fLI-w8-nFk" firstAttribute="bottom" secondItem="a0H-iT-Gsa" secondAttribute="bottom" id="rdV-lz-SdG"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="JWB-ss-vKe"/>
+                    <connections>
+                        <outlet property="bottomPickerView" destination="EKA-Vj-4tk" id="Xjs-vI-cOJ"/>
+                        <outlet property="centerPickerView" destination="1hq-4u-aPn" id="l0d-FL-lQv"/>
+                        <outlet property="topPickerView" destination="Ug1-U3-OFr" id="bUR-Ih-L53"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UJM-s1-tYE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2103" y="1559"/>
         </scene>
     </scenes>
     <resources>
