@@ -23,6 +23,7 @@
 		89EC3DEC2AF0E3EA005A75A1 /* AssignmentSimpleTableViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EC3DEB2AF0E3EA005A75A1 /* AssignmentSimpleTableViewVC.swift */; };
 		89EC3DEE2AF0E9AA005A75A1 /* AssignmentSimplePickerViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EC3DED2AF0E9AA005A75A1 /* AssignmentSimplePickerViewVC.swift */; };
 		89EC3DF02AF0F2DA005A75A1 /* AssignmentNumbersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EC3DEF2AF0F2DA005A75A1 /* AssignmentNumbersViewController.swift */; };
+		89EC3DF22AF0F6B6005A75A1 /* AssignmentSimpleValidationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EC3DF12AF0F6B6005A75A1 /* AssignmentSimpleValidationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		89EC3DEB2AF0E3EA005A75A1 /* AssignmentSimpleTableViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentSimpleTableViewVC.swift; sourceTree = "<group>"; };
 		89EC3DED2AF0E9AA005A75A1 /* AssignmentSimplePickerViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentSimplePickerViewVC.swift; sourceTree = "<group>"; };
 		89EC3DEF2AF0F2DA005A75A1 /* AssignmentNumbersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentNumbersViewController.swift; sourceTree = "<group>"; };
+		89EC3DF12AF0F6B6005A75A1 /* AssignmentSimpleValidationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentSimpleValidationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 				89EC3DEB2AF0E3EA005A75A1 /* AssignmentSimpleTableViewVC.swift */,
 				89EC3DED2AF0E9AA005A75A1 /* AssignmentSimplePickerViewVC.swift */,
 				89EC3DEF2AF0F2DA005A75A1 /* AssignmentNumbersViewController.swift */,
+				89EC3DF12AF0F6B6005A75A1 /* AssignmentSimpleValidationViewController.swift */,
 				04BA14862AE5ED6800138FB9 /* Main.storyboard */,
 				04BA14892AE5ED6900138FB9 /* Assets.xcassets */,
 				04BA148B2AE5ED6900138FB9 /* LaunchScreen.storyboard */,
@@ -290,6 +293,7 @@
 				04BA14812AE5ED6800138FB9 /* AppDelegate.swift in Sources */,
 				04BA14B62AE5F3B000138FB9 /* RxViewController.swift in Sources */,
 				04BA14832AE5ED6800138FB9 /* SceneDelegate.swift in Sources */,
+				89EC3DF22AF0F6B6005A75A1 /* AssignmentSimpleValidationViewController.swift in Sources */,
 				89EC3DF02AF0F2DA005A75A1 /* AssignmentNumbersViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
